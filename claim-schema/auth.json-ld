@@ -1,0 +1,23 @@
+{
+  "@context": [{
+    "@version": 1.1,
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
+    "ProofOfDaoMembership": {
+      "@id": "https://raw.githubusercontent.com/enricobottazzi/claim-schema/proof-of-dao-membership.json-ld#AuthBJJCredential",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "proof-of-dao-vocab": "https://github.com/enricobottazzi/claim-schema/proof-of-dao.md#",
+        "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+        "type": {
+          "@id": "proof-of-dao-vocab:role",
+          "@type": "serialization:IndexDataSlotA"
+        },
+      }
+    }
+  }]
+}
